@@ -18,7 +18,7 @@ switch(class1)
 case 1:
 {
 printf("\n Enter your seat Number in First class:-");
-scanf(%d”,&a);
+scanf("%d",&a);
 if (a < 100)
 {
 printf("\n\t\t\t\t\t\t\t\t————–Your Ticketing Details—————-\n");
