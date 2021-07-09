@@ -3,8 +3,8 @@
 int main()
 {
 int class1;
-int b;
-int a;
+int economy_seat;
+int firstclass_seat;
 int input;
 char ch;
 
@@ -18,12 +18,12 @@ switch(class1)
 case 1:
 {
 printf("\n Enter your seat Number in First class:-");
-scanf("%d",&a);
-if (a < 100)
+scanf("%d",&fistclass_seat);
+if (firstclass_seat < 100)
 {
 printf("\n\t\t\t\t\t\t\t\t————–Your Ticketing Details—————-\n");
 printf("Your Class: First Class”,class1);
-printf("\nYour Seat Number:- %d \n\n", a);
+printf("\nYour Seat Number:- %d \n\n", firstclass_seat);
 }
 else
 {
@@ -33,19 +33,19 @@ if(ch =='y'||ch == 'Y')
 
 {
 printf("\nYour ticket has been booked in Economy Class");
-printf("\nYour Seat Number:- %d \n\n",a);
+printf("\nYour Seat Number:- %d \n\n",firstclass_seat);
 }
 break;
 }
 case 2:
 {
 printf("\n Enter your seat Number in Economy class:");
-scanf("%d",&b);
-if (b >= 101 || b < 200)
+scanf("%d",&economy_seat);
+if (economy_seat >= 101 || economy_seat < 200)
 {
 printf("\n\t\t\t\t\t\t\t\t————–Your Ticketing Details—————-\n");
 printf("Your Class: economy Class",class1);
-printf("\nYour Seat Number:- %d", b);
+printf("\nYour Seat Number:- %d", economy_seat);
 }
 else
 {
@@ -55,7 +55,7 @@ if(ch =='y'||ch=='y')
 
 {
 printf("\nYour ticket has been booked in Economy Class");
-printf("\nYour Seat Number:- %d",a);
+printf("\nYour Seat Number:- %d",firstclass_seat);
 }
 break;
 
