@@ -22,7 +22,7 @@ scanf("%d",&fistclass_seat);
 if (firstclass_seat < 100)
 {
 printf("\n\t\t\t\t\t\t\t\t————–Your Ticketing Details—————-\n");
-printf("Your Class: First Class”,class1);
+printf("Your Class: First Class",class1);
 printf("\nYour Seat Number:- %d \n\n", firstclass_seat);
 }
 else
