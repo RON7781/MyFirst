@@ -13,4 +13,11 @@ In the Indian Railway reservation system, we have tried to develop a platform to
  This can be run on any computer.
  ### How?
  User have certain options to book and cancel the tickets.
- 
+# DETAIL REQUIREMENTS
+### HIGH LEVEL REQUIREMENT:
+ *Railway Ticket Booking System	\
+ *User Module	
+ ### LOW LEVEL REQUIREMENT:
+  *User input for choice\
+  *Adding book ticket info to files\
+  *Adding cancel ticket info to files
